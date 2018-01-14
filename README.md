@@ -29,37 +29,29 @@ will give us the location of our ssh key, then type:
 
 This last command will give us the content of our generated key pair
 
-Now we just need to copy this contenet, and go back to our AWS console.
-    
-    B.Import Key Pair
+Now we just need to copy this contenet, and go back to our AWS console
 
-Click on the key pair section tab then choose Import key pair.
+   B.Import key pair
+
+Click on the key pair section tab, then choose Import key pair.
 
 Choose a name for the key pair and copy the content to the Public Key Content part and hit Import
 
 
 * Configuring our security group
  
- Hit the Create security Group tab
+Hit the Create security Group tab
  
- We need to choose Add Rule to choose our own ports. Here we need
+We need to choose Add Rule to choose our own ports. 
+
+The ports that we need are: 22 , 8888 , 2376, 27016  
+
+22 is ssh and 8888 is http
+
+It is important to choose Anywhere as our source
  
-Type                 Port      source
 
-
-ssh                  22        Anywhere
-
-
-
-http                  8888      Anywhere
-
-
-custom TCP Rule       2376      Anywhere
-
-
-Custom TCP Rule       27016     Anywhere
-
-Then hit Creat
+Then hit Create
 
 Now we have everything to launch our instance.
 
