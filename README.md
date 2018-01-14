@@ -71,9 +71,9 @@ We copy the public Ip of our new instance, and we go over to bash and copy it in
 
 in order to connect to the system we type: y
 
-now we are connected
+now we are connected.
 
-Then we install Docker
+Then we install docker using:
 
 ` curl -sSL https://get.docker.com | sh`
 
