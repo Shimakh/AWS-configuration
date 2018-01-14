@@ -17,9 +17,7 @@
    A.First we need to creat our ssh key pair locally using these set of commands at Gitbash:
 
 
-`ssh-keygen`
-
-Then hit Enter twise to accept the defult location 
+Then hit Enter twise to accept the defult location. 
 
 `ls ~/.ssh` 
 
@@ -27,15 +25,15 @@ will give us the location of our ssh key, then type:
 
 `cat ~/.ssh/id_rsa.pub`
 
-This last command will give us the content of our generated key pair
+This last command will give us the content of our generated key pair.
 
 Now we just need to copy this contenet, and go back to our AWS console.
 
-       B.Import key pair
+   B.Import key pair
 
 Click on the key pair section tab, then choose Import key pair.
 
-Choose a name for the key pair and copy the content to the Public Key Content part and hit Import
+Choose a name for the key pair and copy the content to the Public Key Content part and hit Import.
 
 
 * Configuring our security group
@@ -50,8 +48,7 @@ The ports that we need are: 22 , 8888 , 2376, 27016
 
 It is important to choose Anywhere as our source
  
-
-Then hit Create
+Then hit Create.
 
 Now we have everything to launch our instance.
 
@@ -59,9 +56,9 @@ Now we have everything to launch our instance.
 
 1. Choose Ubuntu Server (as our AMI) 
 2. After that we choose our Instance type (Free Tier T2.micre) the second row
-3. Skip third step configure Instance Detailes
+3. Skip the third step configure Instance Detailes
 4. On this step we change the storage size to 30G
-5. We skip the step 5th and move over to the 6th step
+5. We skip the 5th step, and move over to the 6th step
 6. Inthis Step we just choose the security groups thet we already created
 7. Now we just review the changes thet we've done, choose the existing the key pair, and hit Launch
 
