@@ -69,6 +69,7 @@ Now we have everything to launch our instance.
 **Docker Installation**
 
 We copy the public Ip of our new instance, and we go over to bash and copy it in this command:
+
 `ssh ubuntu@PUBLICIPADDRESS`
 
 
@@ -88,7 +89,7 @@ we should log out now using:
 
 `exit`
 
-And log back in
+And log back in.
 
 We can make sure that everything works by this command:
 
@@ -100,11 +101,11 @@ To download jupyter we type this command:
 
 `docker pull jupyter/datascience-notebook`
 
-To verify we type this comman
+To verify we type this command:
 
 `docker images`
 
-To shorten the name of the image we do:
+To shorten the name of the image we run:
 
 `docker tag IMAGEID dsnb`
 
@@ -114,12 +115,14 @@ Now we want to use this image we type:
 
 `docker run -v /home/ubuntu:/home/jovyan -p 8888:8888 -d jupyter/datascience-notebook`
 
-To use it we open a new browser, and at the address bar we put the IP address of our AWS instance
+To use it we open a new browser, and at the address bar we put the IP address of our AWS instance.
 
-Now we need a token to get that we run
+Now we need a token as our password to accessing jupyter. 
+
+To get that we run:
 
 `docker exec CONTAINERID jupyter notebook list`
 
-We can copy the token and paste it to the password spot
+We can copy the token and paste it to the password spot.
 
-Our Jupyter Notebook is ready to use
+Finally our Jupyter Notebook is ready to use.
