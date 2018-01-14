@@ -31,6 +31,7 @@ This last command will give us the content of our generated key pair
 
 Now we just need to copy this contenet, and go back to our AWS console
 
+
    B.Import key pair
 
 Click on the key pair section tab, then choose Import key pair.
@@ -71,7 +72,7 @@ We copy the public Ip of our new instance, and we go over to bash and copy it in
 `ssh ubuntu@PUBLICIPADDRESS`
 
 
-in order to connect to the system we type y
+in order to connect to the system we type: y
 
 now we are connected
 
@@ -111,7 +112,7 @@ To shorten the name of the image we do:
 
 Now we want to use this image we type:
 
-`docker run -v /home/ubuntu:/home/jovyan -p 80:8888 -d jupyter/datascience-notebook`
+`docker run -v /home/ubuntu:/home/jovyan -p 8888:8888 -d jupyter/datascience-notebook`
 
 To use it we open a new browser, and at the address bar we put the IP address of our AWS instance
 
