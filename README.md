@@ -1,6 +1,6 @@
 # CXS_450_1_Project_1
 
-**Configuring a Jupyter Data Science Notebook Servere on AWS**
+**Configuring the Jupyter Data Science Notebook Servere on AWS**
 ----
 **Configuring the AWS account**
 
