@@ -34,9 +34,10 @@ Choose a name for the key pair and copy the content to the Public Key Content pa
 2. Configuring our security group
  Hit the Create security Group tab
  We need to choose Add Rule to choose our own ports. Here we need
- Type                 Port      source
+ 
+Type                 Port      source
 
- ssh                  22        Anywhere
+ssh                  22        Anywhere
 
 http                  8888      Anywhere
 
