@@ -65,7 +65,6 @@ Now we have everything to launch our instance.
 **Docker Installation**
 
 We copy the public Ip of our new instance, and we go over to bash and copy it in this command:
-
 `ssh ubuntu@PUBLICIPADDRESS`
 
 
@@ -129,7 +128,7 @@ Finally our Jupyter Notebook is ready to use.
 
 
 
-##Budget for using 3 EC2 for 3 months## 
+# Budget for using 3 EC2 for 3 months 
 
 
 The charge for 3 EC2 instances at the same time for a month with Windows as the operating system and T2.micro as Instance type
