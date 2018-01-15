@@ -74,7 +74,7 @@ now we are connected.
 
 Then we install docker using:
 
-` curl -sSL https://get.docker.com | sh`
+`curl -sSL https://get.docker.com | sh`
 
 Now we just need to copy past this part
 
@@ -124,7 +124,7 @@ We can copy the token and paste it to the password spot.
 
 Finally our Jupyter Notebook is ready to use.
 
-
+![aws](https://user-images.githubusercontent.com/35311746/34923678-d215484a-f952-11e7-8bf5-f627e8b2e8c5.jpg)
 
 
 
