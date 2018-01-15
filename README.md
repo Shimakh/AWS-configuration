@@ -99,6 +99,8 @@ To download jupyter we type this command:
 
 To verify we type this command:
 
+
+
 `docker images`
 
 To shorten the name of the image we run:
@@ -122,3 +124,14 @@ To get that we run:
 We can copy the token and paste it to the password spot.
 
 Finally our Jupyter Notebook is ready to use.
+
+
+
+
+
+##Budget for using 3 EC2 for 3 months## 
+
+
+The charge for 3 EC2 instances at the same time for a month with Windows as the operating system and T2.micro as Instance type
+comes to 25.83$.
+And the total for 3 months will be 77.49
